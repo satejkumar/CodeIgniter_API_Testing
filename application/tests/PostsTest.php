@@ -30,10 +30,8 @@ class PostsTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(1, $data['id']);
     }
 
-    public function testPost_NewPost_BookObject()
+    public function testPost_NewBlog_Post()
     {
-        $bookId = uniqid();
-
         $response = $this->client->post('posts/index', [
             'form_params' => [
                 'title' => 'My Random Post',
