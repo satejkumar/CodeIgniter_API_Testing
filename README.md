@@ -1,9 +1,11 @@
-# CodeIgniter 2
-Open Source PHP Framework (originally from EllisLab)
+# CodeIgniter 2 API testing using phpunit and Guzzle PHP http client
 
-For more info, please refer to the user-guide at http://www.codeigniter.com/userguide2/  
-(also available within the download package for offline use)
+We are using composer to install dependencies which are phpunit and Guzzle http client.
 
-**WARNING:** *CodeIgniter 2.x is no longer under development and only receives security patches until October 31st, 2015.
-Please update your installation to the latest CodeIgniter 3.x version available
-(upgrade instructions [here](http://www.codeigniter.com/userguide3/installation/upgrade_300.html)).*
+Install the dependencies using composer install command from the project root directory.
+
+The tests are present inside the folder application/tests.
+
+These can be run from command line from the project root directory as below
+
+$ ./vendor/bin/phpunit application/tests/
