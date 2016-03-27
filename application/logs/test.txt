@@ -1,0 +1,5 @@
+array (
+  'title' => 'My Random Post',
+  'content' => 'Content',
+  'author_id' => '1',
+)
